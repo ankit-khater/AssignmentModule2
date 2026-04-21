@@ -1,6 +1,6 @@
 Readme file for feature login branch
 
-..Merged this changes into development branch...
+..Merged this changes into development branch using git CLI...
 
 
 
