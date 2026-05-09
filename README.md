@@ -10,12 +10,15 @@ This repository demonstrates an enterprise-level Git workflow, including branchi
 **Commands Used:**
 
 # Initialize the repository
-mkdir git-advanced-workflow
-cd git-advanced-workflow
-git init
+mkdir git-advanced-workflow.
+
+
+cd git-advanced-workflow.
+
+
+git init.
 
 # Create the initial commit on main
-echo "# Enterprise-Level Git Workflow" > README.md
 git add README.md
 git commit -m "Initial commit"
 git branch -M main
@@ -58,12 +61,4 @@ git merge feature/login
 # Final Git Graph
 
 ![alt text](image-4.png)
-
-
-
-
-
-
-
-
 
