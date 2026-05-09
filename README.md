@@ -42,6 +42,8 @@ git checkout -b feature/profile
 git checkout develop
 git checkout -b bugfix/login-error
 
+## Task 3: Commit History Management
+
 # 3. Perform a Merge Strategy (feature/login into develop)
 git checkout develop
 git merge feature/login 
