@@ -11,10 +11,10 @@ This repository demonstrates an enterprise-level Git workflow, including branchi
 # Initialize the repository
 
 
-mkdir git-advanced-workflow.
+mkdir git-advanced-workflow
 
 
-cd git-advanced-workflow.
+cd git-advanced-workflow
 
 
 git init.
@@ -22,42 +22,48 @@ git init.
 # Create the initial commit on main
 
 
-git add README.md.
+git add README.md
 
 
-git commit -m "Initial commit".
+git commit -m "Initial commit"
 
 
-git branch -M main.
+git branch -M main
 
 
 # Create the required branches
 
 
-git checkout -b develop.
+git checkout -b develop
 
 
-git checkout -b feature/login.
+git checkout -b feature/login
 
 
 ## 🛠️ Task 2: Branching Workflow
 
 
 git checkout develop
+
+
 git checkout -b feature/payment
+
+
 git checkout develop
+
+
 git checkout -b feature/profile
 
 # 1. Create additional feature branches
 
 
-git checkout develop.
+git checkout develop
 
 
-git checkout -b feature/payment.
+git checkout -b feature/payment
 
 
-git checkout develop.
+git checkout develop
 
 
 git checkout -b feature/profile
@@ -65,20 +71,20 @@ git checkout -b feature/profile
 # 2. Create a bugfix branch
 
 
-git checkout develop.
+git checkout develop
 
 
-git checkout -b bugfix/login-error.
+git checkout -b bugfix/login-error
 
 
 
 ## Task 3: Commit History Management
 
 # 3. Perform a Merge Strategy (feature/login into develop)
-git checkout develop.
+git checkout develop
 
 
-git merge feature/login.
+git merge feature/login
 
 
 ![alt text](image-1.png)
